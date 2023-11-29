@@ -1,3 +1,4 @@
+//
 let game;
 
 // ゲーム画面サイズ
@@ -20,7 +21,7 @@ window.onload = function() {
                 gravity: {
                     y: 0
                 }, // 重力
-                debug: false // デバックモード
+                debug: true // デバックモード
             }
         },
         scene: [MyScene1], // デフォルトシーン
