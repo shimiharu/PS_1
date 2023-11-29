@@ -4,8 +4,8 @@
 class MyScene1 extends Phaser.Scene {
 
     preload() {
-        this.load.image('sky', 'background.png');
-        this.load.image('taro', 'taro.png');
+        this.load.image('sky', './assets/background.png');
+        this.load.image('taro', './assets/taro.png');
     }
 
    // コンストラクタ
